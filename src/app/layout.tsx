@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Velookup",
   description: "Quality never compromised",
   icons: {
-    icon: "/icons/favicon.ico", // can also use png
+    icon: "/icons/favicon.png", // can also use png
   },
 };
 
