@@ -29,7 +29,10 @@ export default function Home() {
             <span className={styles.icon}>🔧</span>
           </div>
           <p className={styles.subtitle}>
-            {`We’re currently working on improvements. Please check back later.`}
+            {`We’re currently working on improvements.`}
+          </p>
+          <p className={styles.subtitle}>
+            {`Please check back soon for updates.`}
           </p>
         </div>
       </main>
@@ -40,6 +43,7 @@ export default function Home() {
           <div className={styles.contactSection}>
             <div className={styles.contactItem}>
               <h3>Address</h3>
+              <p>First Floor, Vuda Haritha Society</p>
               <p>IT SEZ, Madurawada</p>
               <p>Visakhapatnam, Andhra Pradesh</p>
               <p>530048</p>
@@ -49,6 +53,13 @@ export default function Home() {
               <p>Phone: +91 8977733180</p>
               <p>Phone: +91 8977733181</p>
               <p>Email: support@velookup.com</p>
+            </div>
+            <div className={styles.contactItem}>
+              <h3>Branches</h3>
+              <p>Vijayawada</p>
+              <p>Visakhapatnam</p>
+              <p>Vizianagaram</p>
+              <p>Srikakulam</p>
             </div>
           </div>
           <div className={styles.copyright}>
