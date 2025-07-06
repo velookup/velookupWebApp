@@ -4,6 +4,7 @@
   flex-direction: column;
   background: #ffffff;
   color: #333333;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Header Styles */
@@ -99,14 +100,6 @@
   line-height: 1.5;
 }
 
-.description {
-  font-size: 1rem;
-  color: #888888;
-  line-height: 1.6;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
 /* Footer Styles */
 .footer {
   background: #f8f9fa;
@@ -121,7 +114,7 @@
 
 .contactSection {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-bottom: 1.5rem;
 }
@@ -174,12 +167,8 @@
     font-size: 1.1rem;
   }
   
-  .description {
-    font-size: 0.95rem;
-  }
-  
   .contactSection {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
   
@@ -211,10 +200,6 @@
     font-size: 1rem;
   }
   
-  .description {
-    font-size: 0.9rem;
-  }
-  
   .contactItem h3 {
     font-size: 1.1rem;
   }
@@ -229,5 +214,10 @@
   
   .progressIcon {
     gap: 0.8rem;
+  }
+  
+  .contactSection {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 } 
