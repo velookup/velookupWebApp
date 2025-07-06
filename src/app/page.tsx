@@ -1,9 +1,9 @@
-import WorkInProgress from "./components/workInProgress/WorkInProgress";
+import Home from "./components/home/Home";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
-      <WorkInProgress />
+      <Home />
     </>
   );
 }
