@@ -29,7 +29,7 @@ export default function Home() {
             <span className={styles.icon}>🔧</span>
           </div>
           <p className={styles.subtitle}>
-            We're working hard to bring you something amazing
+            {`We're working hard to bring you something amazing`}
           </p>
         </div>
       </main>
